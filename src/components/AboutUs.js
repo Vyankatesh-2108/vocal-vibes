@@ -8,7 +8,7 @@ function AboutUs (){
 technology that can automatically identify and understand the emotional states expressed in spoken 
 language.</p>
 
-            <h1>Our vision</h1>
+            <h1>Our Vision</h1>
             <p>Emotions are fundamental to human communication and play a crucial role in conveying the 
 speaker's intentions, attitudes, and feelings. Identifying and understanding these emotions from 
 speech can enhance the quality of human-computer interactions and provide valuable insights into 

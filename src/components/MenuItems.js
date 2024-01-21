@@ -12,7 +12,7 @@ export const MenuItems = [
         icon : "fa-solid fa-circle-info"
     },
     {
-        title : "Service",
+        title : "Community Service",
         url : "/service",
         cName : "nav-links",
         icon : "fa-solid fa-briefcase"

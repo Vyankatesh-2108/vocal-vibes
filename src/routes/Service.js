@@ -10,7 +10,7 @@ function Service () {
         <Hero 
                 cName="hero-mid"
                 heroImg={AboutImg}
-                title="Service"
+                title="Community Service"
                
                 btnClass="hide"
             />

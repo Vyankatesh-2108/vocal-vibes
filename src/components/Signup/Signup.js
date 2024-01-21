@@ -12,13 +12,14 @@ function Signup() {
   const [values, setValues] = useState({
     name: "",
     email: "",
+    num: "",
     pass: "",
   });
   const [errorMsg, setErrorMsg] = useState("");
   const [submitButtonDisabled, setSubmitButtonDisabled] = useState(false);
 
   const handleSubmission = () => {
-    if (!values.name || !values.email || !values.pass) {
+    if (!values.name || !values.email || !values.num || !values.pass) {
       setErrorMsg("Fill all fields");
       return;
     }
@@ -28,10 +29,10 @@ function Signup() {
     createUserWithEmailAndPassword(auth, values.email, values.pass)
       .then(async (res) => {
         setSubmitButtonDisabled(false);
-        const user = res.user;
-        await updateProfile(user, {
-          displayName: values.name,
-        });
+        // const user = res.user;
+        // await updateProfile(user, {
+        //   displayName: values.name,
+        // });
         navigate("/Predict");
       })
       .catch((err) => {
@@ -57,6 +58,13 @@ function Signup() {
             setValues((prev) => ({ ...prev, email: event.target.value }))
           }
         />
+        <InputControl
+          placeholder="Enter Phone number"
+          onChange={(event) =>
+            setValues((prev) => ({ ...prev, num: event.target.value }))
+          }
+        />
+
         <InputControl
           placeholder="Enter password"
           onChange={(event) =>
