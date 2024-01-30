@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar"
 import AboutImg from "../assets/night.jpg"
 import Footer from "../components/Footer"
+import Services from "../components/Services";
 
 function Service () {
     return(
@@ -14,6 +15,7 @@ function Service () {
                
                 btnClass="hide"
             />
+        <Services/>
          <Footer />
         </>
     )

@@ -4,13 +4,18 @@
 
 .destination h1{
     font-size: 3rem;
+    border-bottom: 1px solid #bbc7c7;
+}
+
+.tag{
+    border-bottom: 1px solid #bbc7c7;
 }
 
 .first-des{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4.5rem;
+    margin-top: 5rem;
 }
 
 .first-des-reverse{
@@ -18,7 +23,7 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5rem;
+    margin-top: 5.5rem;
 }
 
 .des-text{
@@ -43,7 +48,7 @@
     width: 49%;
     height: 350px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 2px;
     box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 

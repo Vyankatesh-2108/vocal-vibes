@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
-
+import Navbar from "../Navbar"
 import InputControl from "../InputControl/InputControl";
 import { auth } from "../../firebase";
 
@@ -36,6 +36,8 @@ function Login() {
       });
   };
   return (
+    <>
+    <Navbar/>
     <div className={styles.container}>
       <div className={styles.innerBox}>
         <h1 className={styles.heading}>Login</h1>
@@ -67,7 +69,9 @@ function Login() {
         </div>
       </div>
     </div>
+    </>
   );
+
 }
 
 export default Login;

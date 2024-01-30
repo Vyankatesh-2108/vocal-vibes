@@ -30,6 +30,11 @@
     display: inline;
 }
 
+.form-container button:hover{
+    background: black;
+    color: white;
+}
+
 @media screen and (max-width: 850px) {
     .form-container{
         margin: 4rem 2rem;

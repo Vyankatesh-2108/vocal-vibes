@@ -9,6 +9,7 @@
   }
   
   .innerBox {
+    /* margin-top: 20px; */
     min-width: 480px;
     height: fit-content;
     width: fit-content;
@@ -18,7 +19,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
   }
   
   .footer {
@@ -68,3 +69,5 @@
     font-size: 1rem;
     text-decoration: none;
   }
+
+ 

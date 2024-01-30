@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import Navbar from "../Navbar"
 import InputControl from "../InputControl/InputControl";
 import { auth } from "../../firebase";
 
@@ -42,6 +42,8 @@ function Signup() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className={styles.container}>
       <div className={styles.innerBox}>
         <h1 className={styles.heading}>Signup</h1>
@@ -86,6 +88,7 @@ function Signup() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

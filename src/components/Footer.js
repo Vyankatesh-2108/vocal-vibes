@@ -3,7 +3,7 @@ import "./FooterStyles.css"
 const Footer = () =>{
     return(
         <div className="footer">
-            <div className="top">
+            {/* <div className="top">
                 
                 <div>
                     <h1>Vocal Vibes</h1>
@@ -24,7 +24,7 @@ const Footer = () =>{
                         <i className="fa-brands fa-twitter-square"></i>
                     </a>
                 </div>
-            </div>
+            </div> */}
 
             <div className="bottom">
                 {/* <div>

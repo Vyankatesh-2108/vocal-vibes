@@ -8,7 +8,7 @@ import "./DetailsStyles.css"
 const Details = () =>{
     return (
         <div className="details">
-            <h1>Transforming Education</h1>
+            <h1 className="tag">Transforming Education</h1>
             
             <DetailsData 
                 className="first-des"
@@ -25,6 +25,14 @@ const Details = () =>{
                 image1={img3}
                 image2={img4}
             />
+
+{/* <DetailsData 
+                className="first-des"
+                heading="Every child can learn, and learning is for life."
+                text="Vocal Vibes is an online platform built specifically for blind and visually impaired students. The platform is fully self-voicing and highly visual right in the browser on any device, from school or home. Vocal Vibes remote access is a game changer for blind and visually impaired students. Whether you have 1 student or 100, it only takes a few minutes to get up and running with Vocal Vibes. You can check out a free trial on our website and find out just how speech emotion is detected through the voice."
+                image1={img1}
+                image2={img2}
+            /> */}
         </div>
     );
 }

@@ -34,6 +34,11 @@ function ContactForm(){
         }
     }
 
+    const onSubmit = (e) => {
+        e.preventDefault();
+        console.log("refresh prevented");
+      };
+
     return(
         <div className="form-container">
             <h1>Send a message to us!</h1>
@@ -42,7 +47,7 @@ function ContactForm(){
                 <input name="Email" value={userDate.Email} onChange={data} placeholder="Email" />
                 <input name="Subject" value={userDate.Subject} onChange={data} placeholder="Subject" />
                 <textarea name="Message" value={userDate.Message} onChange={data} placeholder="Message" rows="4"></textarea>
-                <button onClick={send}>Send Message</button>
+                <button onClick={send} onSubmit={onSubmit}>Send Message</button>
             </form>
         </div>
     )
