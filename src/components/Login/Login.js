@@ -17,6 +17,7 @@ function Login() {
   const [submitButtonDisabled, setSubmitButtonDisabled] = useState(false);
 
   const handleSubmission = () => {
+    console.log('Submit button disabled:', submitButtonDisabled);
     if (!values.email || !values.pass) {
       setErrorMsg("Fill all fields");
       return;
@@ -26,13 +27,16 @@ function Login() {
     setSubmitButtonDisabled(true);
     signInWithEmailAndPassword(auth, values.email, values.pass)
       .then(async (res) => {
-        setSubmitButtonDisabled(false);
+        // setSubmitButtonDisabled(false);
         
-        navigate("/Predict");
+        navigate("/Pred");
       })
       .catch((err) => {
-        setSubmitButtonDisabled(false);
+        // setSubmitButtonDisabled(false);
         setErrorMsg(err.message);
+      })
+      .finally(() =>{
+        setSubmitButtonDisabled(false)
       });
   };
   return (

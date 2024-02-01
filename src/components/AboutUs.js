@@ -3,7 +3,7 @@ import "./AboutUsStyles.css"
 function AboutUs (){
     return(
         <div className="about-container">
-            <h1>Our Mission</h1>
+            <h1 className="tag">Our Mission</h1>
             <p>The Mission of speech emotion recognition using machine learning is to develop and apply 
 technology that can automatically identify and understand the emotional states expressed in spoken 
 language.</p>

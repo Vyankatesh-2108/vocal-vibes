@@ -41,6 +41,7 @@
     color: #fff;
     border-radius: 5px;
     font-weight: bold;
+    display: block !important;
     font-size: 1rem;
     padding: 10px 16px;
     width: 100%;
@@ -67,4 +68,14 @@
     letter-spacing: 1px;
     font-size: 1rem;
     text-decoration: none;
+  }
+
+  @media (max-width: 768px){
+    .container{
+      padding: 20px;
+    }
+    .innerBox{
+      min-width: auto;
+      width: 100%;
+    }
   }

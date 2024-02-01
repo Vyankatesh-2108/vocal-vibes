@@ -33,7 +33,7 @@ function Signup() {
         // await updateProfile(user, {
         //   displayName: values.name,
         // });
-        navigate("/Predict");
+        navigate("/Pred");
       })
       .catch((err) => {
         setSubmitButtonDisabled(false);

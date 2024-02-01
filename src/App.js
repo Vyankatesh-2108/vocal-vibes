@@ -9,6 +9,7 @@ import Contact from './routes/Contact'
 import Predict from './components/Predict/Predict'
 import Login from './components/Login/Login'
 import Signup from './components/Signup/Signup'
+import Pred from './routes/Pred'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
               <Route path='/Predict' element={<Predict/>} />
               <Route path='/Login' element={<Login/>}/>
               <Route path='/Signup' element={<Signup/>}/>
+              <Route path='/pred' element={<Pred/>}/>
             </Routes>
         </div>
   )

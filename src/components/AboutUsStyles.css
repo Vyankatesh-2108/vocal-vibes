@@ -4,7 +4,7 @@
 }
 
 .about-container h1{
-    padding-bottom: 1rem;
+    border-bottom: 1px solid #8a8e8e;
 }
 
 .about-container p{

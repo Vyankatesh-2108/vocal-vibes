@@ -26,6 +26,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
   }
   
   .footer .error {
@@ -39,6 +40,7 @@
     outline: none;
     border: none;
     background-color: #9900ff;
+    display: block !important;
     color: #fff;
     border-radius: 5px;
     font-weight: bold;
@@ -70,4 +72,13 @@
     text-decoration: none;
   }
 
+  @media (max-width: 768px){
+    .container{
+      padding: 20px;
+    }
+    .innerBox{
+      min-width: auto;
+      width: 100%;
+    }
+  }
  

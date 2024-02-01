@@ -4,7 +4,7 @@
     height: 100vh;
     position: relative;
     /*animation background added*/
-    background: linear-gradient(90deg, #d2001a, #7462ff, #e340aa, #23d5ab);
+    background: linear-gradient(110deg, #d2001a, #7462ff, #e340aa, #23d5ab);
     background-size: 300% 300%;
     animation: color 12s ease-in-out infinite;
 }

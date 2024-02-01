@@ -4,46 +4,7 @@ import "./ServicesStyle.css"
 
 function Services() {
   return (
-    // <div>
-    //     <header>
-    //       <h1>globe Roamer</h1>
-    //     </header>
-    //     <main className='grid-container'>
-    //         <article className='featured'>
-    //             <ReactPlayer style={{ width: '100%', border: '1px solid #111'}} controls url='https://youtu.be/07-KpEv7nqM?si=li36w3f12VMa7pbt'></ReactPlayer>
-    //             <div>
-    //                 <h2>Ballon Magic</h2>
-    //                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit velit quis tenetur temporibus architecto nobis nostrum reprehenderit inventore aut porro?</p>
-    //             </div>
-    //         </article>
-
-    //         <article>
-    //           <ReactPlayer style={{ width: '100%', border: '1px solid #111' }} controls url='https://youtu.be/07-KpEv7nqM?si=li36w3f12VMa7pbt'></ReactPlayer>
-    //           <div>
-    //             <h3>Ballon Magic1</h3>
-    //             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi in veniam maiores laudantium, alias quia nihil sint exercitationem eos enim?</p>
-    //           </div>
-    //         </article>
-
-    //         <article>
-    //           <ReactPlayer style={{ width: '100%', border: '1px solid #111' }} controls url='https://youtu.be/07-KpEv7nqM?si=li36w3f12VMa7pbt'></ReactPlayer>
-    //           <div>
-    //             <h3>Ballon Magic2</h3>
-    //             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi in veniam maiores laudantium, alias quia nihil sint exercitationem eos enim?</p>
-    //           </div>
-    //         </article>
-
-    //         <article>
-    //           <ReactPlayer style={{ width: '100%', border: '1px solid #111' }} controls url='https://youtu.be/07-KpEv7nqM?si=li36w3f12VMa7pbt'></ReactPlayer>
-    //           <div>
-    //             <h3>Ballon Magic3</h3>
-    //             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi in veniam maiores laudantium, alias quia nihil sint exercitationem eos enim?</p>
-    //           </div>
-    //         </article>
-
-    //     </main>
-    // </div>
-   <>
+       <>
     <header>
          <h1>Community Services</h1>
     </header>
