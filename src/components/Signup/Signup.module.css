@@ -9,7 +9,7 @@
   }
   
   .innerBox {
-    /* margin-top: 20px; */
+    margin-top: 20px;
     min-width: 480px;
     height: fit-content;
     width: fit-content;
