@@ -1,6 +1,6 @@
 .about-container{
     margin: 4rem 6rem;
-    text-align: start;
+    text-align: justify;
 }
 
 .about-container h1{
@@ -9,6 +9,7 @@
 
 .about-container p{
     padding-bottom: 2rem;
+    
 }
 
 @media screen and (max-width: 850px) {

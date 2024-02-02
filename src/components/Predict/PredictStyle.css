@@ -19,13 +19,50 @@ main{
     border-radius: 5px;
 }
 
-.uploaded-row{
-    /* margin: 10px 0;
-    display: flex; */
-    justify-content: space-between;
+/* .uploaded-row{
+     margin: 10px 0;
+    display: flex; 
+ justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
-    /* border-radius: 5px; */
+    padding: 15px 20px; 
+    border-radius: 5px;
     background-color: #e9f0ff;
 }
 
+
+.upload-button {
+  display: block;
+  } */
+
+  .container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    margin: 20px; /* Adjust as needed */
+    /* margin-left: 420px;
+    margin-right: 420px; */
+  }
+  
+  .upload-button {
+    /* Add styles for the upload button */
+    padding: 10px;
+    background-color: #1455cf;
+    color: white;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px; /* Adjust the space between the sections and the button */
+  }
+  
+  .uploaded-row {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .upload-content {
+    margin-right: 10px; /* Adjust the space between the icon and the text */
+   
+  }
+  
