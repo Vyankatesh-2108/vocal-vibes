@@ -31,6 +31,7 @@ function ContactForm(){
         console.log(res)
         if(res){
             alert("Message Sent");
+            setUserData({ Name: '', Email: '', Subject: '', Message: '' });
         }
     }
 
