@@ -1,68 +1,121 @@
 main{
-    margin-top: 10px;
-    width: 100%;
-    /* height: 100vh; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 10px;
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-pred{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px dashed #1475cf;
-    height: 300px;
-    width: 500px;
-    cursor: pointer;
-    border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #1475cf;
+  height: 300px;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 /* .uploaded-row{
-     margin: 10px 0;
-    display: flex; 
- justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px; 
-    border-radius: 5px;
-    background-color: #e9f0ff;
+   margin: 10px 0;
+  display: flex; 
+justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px; 
+  border-radius: 5px;
+  background-color: #e9f0ff;
 }
 
 
 .upload-button {
-  display: block;
-  } */
+display: block;
+} */
 
-  .container {
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    justify-content: center;
-    margin: 20px; /* Adjust as needed */
-    /* margin-left: 420px;
-    margin-right: 420px; */
-  }
+.container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: center;
+  margin: 20px; /* Adjust as needed */
+  /* margin-left: 420px;
+  margin-right: 420px; */
+}
+
+.upload-button {
+  /* Add styles for the upload button */
+  padding: 10px;
+  background-color: #1455cf;
+  color: white;
+  display: block;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px; /* Adjust the space between the sections and the button */
+}
+
+.uploaded-row {
+  display: flex;
+  align-items: center;
   
-  .upload-button {
-    /* Add styles for the upload button */
-    padding: 10px;
-    background-color: #1455cf;
-    color: white;
-    display: block;
-    border: none;
-    cursor: pointer;
-    margin-left: 10px; /* Adjust the space between the sections and the button */
-  }
-  
-  .uploaded-row {
-    display: flex;
-    align-items: center;
-    
-  }
-  
-  .upload-content {
-    margin-right: 10px; /* Adjust the space between the icon and the text */
-   
-  }
-  
+}
+
+.upload-content {
+  margin-right: 10px; /* Adjust the space between the icon and the text */
+ 
+}
+
+
+/**/
+
+/* CSS for responsiveness */
+/* .container-fluid {
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}*/
+
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+} */
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+/* h2{
+  font-size: 2rem;
+    border-bottom: 1px solid #bbc7c7;
+} */
+
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mt-3 {
+  margin-top: 1.5rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-dark {
+  color: #343a40;
+}
+
+.justify-content-center {
+  justify-content: center;
+} 
